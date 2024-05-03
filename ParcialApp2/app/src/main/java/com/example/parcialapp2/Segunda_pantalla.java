@@ -22,7 +22,7 @@ public class Segunda_pantalla extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.segunda_pantalla);
 
         rcv_usuarios = findViewById(R.id.rcv_usuarios);
 
